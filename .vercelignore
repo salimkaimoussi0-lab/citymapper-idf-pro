@@ -1,0 +1,10 @@
+notebooks/
+analysis/
+reports/
+docs/
+*.ipynb
+*.zip
+*.csv
+*.xlsx
+IDFM-gtfs.zip
+validations_navigo.csv

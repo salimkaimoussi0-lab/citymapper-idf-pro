@@ -5,3 +5,19 @@ __pycache__/
 .DS_Store
 data/*.zip
 data/*.csv
+
+# Notebooks / Colab
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Données lourdes
+*.zip
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+
+# Secrets
+.env
+.env.local
