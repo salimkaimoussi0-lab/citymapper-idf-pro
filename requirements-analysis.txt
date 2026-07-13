@@ -1,5 +1,7 @@
 pandas
 plotly
-openpyxl
 rapidfuzz
+openpyxl
 requests
+geopandas
+shapely

@@ -1,10 +1,10 @@
-# Données du projet
+# Données
 
-Les données lourdes ne sont pas versionnées dans GitHub.
+Les fichiers lourds doivent rester en local dans data/raw.
 
-À récupérer ou stocker localement :
+Fichiers attendus :
 
-- `IDFM-gtfs.zip`
-- `validations_navigo.csv`
+data/raw/IDFM-gtfs.zip
+data/raw/validations_navigo.csv
 
-Le site Vercel n'a pas besoin de ces fichiers lourds pour fonctionner.
+Ne pas envoyer ces fichiers sur GitHub.
