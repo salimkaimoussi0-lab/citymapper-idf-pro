@@ -92,6 +92,3 @@ Le site est déployé avec Vercel :
 
 https://citymapper-idf-pro.vercel.app
 
-## Sécurité
-
-Ne jamais envoyer sur GitHub les clés API, fichiers .env, données GTFS lourdes, validations Navigo brutes ou rapports volumineux.
