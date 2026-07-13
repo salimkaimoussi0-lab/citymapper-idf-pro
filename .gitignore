@@ -1,23 +1,15 @@
 .env
+.env.*
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-.DS_Store
-data/*.zip
-data/*.csv
+.venv/
+venv/
 
-# Notebooks / Colab
-.ipynb_checkpoints/
-__pycache__/
-*.pyc
+data/raw/*
 
-# Données lourdes
+reports/*
+
 *.zip
-*.csv
-*.xlsx
-*.parquet
-*.pkl
 
-# Secrets
-.env
-.env.local
+.DS_Store
+Thumbs.db
