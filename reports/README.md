@@ -1,13 +1,12 @@
 # Rapports générés
 
-Les rapports sont générés dans :
+Ce dossier reçoit les résultats produits par les scripts d'analyse.
 
-reports/cartes/
-reports/tableaux/
-reports/html_tables/
+## Contenu généré
 
-Rapport principal :
+- reports/cartes/ : cartes et graphiques Plotly interactifs ;
+- reports/tableaux/ : exports CSV et Excel ;
+- reports/html_tables/ : tableaux HTML filtrables ;
+- reports/rapport_colab_style.html : rapport global façon Colab.
 
-reports/rapport_colab_style.html
-
-Les rapports générés ne doivent pas être envoyés sur GitHub.
+Les rapports générés sont locaux et ne sont pas envoyés sur GitHub.
