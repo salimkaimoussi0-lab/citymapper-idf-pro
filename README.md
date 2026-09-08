@@ -171,14 +171,3 @@ Lien production :
 
 https://citymapper-idf-pro.vercel.app
 
-## Sécurité
-
-Ne jamais envoyer sur GitHub :
-
-- les clés API ;
-- les fichiers .env ;
-- les données GTFS lourdes ;
-- les validations Navigo brutes ;
-- les rapports générés volumineux.
-
-Les clés API doivent être utilisées avec des variables d'environnement.
