@@ -1,28 +1,11 @@
-# Notebooks et analyses trafic Île-de-France
+# Archive Google Colab
 
-Ce dossier contient les études réalisées autour du réseau de transport en Île-de-France.
+Ce dossier contient le notebook Google Colab initial du projet Citymapper IDF Pro.
 
-## Contenu
+Le notebook sert de trace du travail de recherche, d'expérimentation et de prototypage.
 
-- `archive_colab/idf_transport_project_v1.py` : export brut du notebook Google Colab original.
-- Analyses présentes dans le notebook :
-  - cartographie des arrêts GTFS ;
-  - carte interactive des lignes RATP/SNCF ;
-  - classement des gares par correspondances ;
-  - saturation réelle avec les validations Navigo ;
-  - indice de tension voyageurs / trains ;
-  - pouls du réseau par heure ;
-  - estimation CO2 évité ;
-  - déserts ferroviaires ;
-  - perturbations IDFM / PRIM.
+Le code principal du projet est maintenant structuré proprement dans le dossier analysis/.
 
-## Données non incluses
+Les scripts Python séparés sont la version professionnelle et maintenable du projet.
 
-Les gros fichiers de données ne sont pas inclus dans GitHub :
-
-- `IDFM-gtfs.zip`
-- `validations_navigo.csv`
-- fichiers Excel générés
-- fichiers CSV lourds
-
-Ces fichiers doivent rester en local ou dans Google Drive.
+Important : aucune clé API et aucune donnée lourde ne doivent être stockées dans le notebook.

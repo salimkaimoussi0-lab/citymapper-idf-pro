@@ -147,7 +147,7 @@ for f in analysis/11_*.py analysis/12_*.py analysis/13_*.py analysis/14_*.py; do
 
 Tester les perturbations IDFM :
 
-export IDFM_API_KEY="AIzaSyA5K2gMTdcl1RIwfKhAe-4uCuWVDTVV9wA"
+export IDFM_API_KEY="ta_cle_idfm"
 python analysis/15_axe3_perturbations_idfm.py
 
 Commande principale pour tout tester :
