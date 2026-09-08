@@ -49,7 +49,7 @@ fig = px.scatter_mapbox(
 )
 
 fig.update_layout(
-    mapbox_style="carto-positron",
+    mapbox_style="open-street-map",
     margin={"r": 0, "t": 40, "l": 0, "b": 0},
     title="AXE 1 : Heatmap de Tension (Couleur = Voyageurs par Train)",
     coloraxis_colorbar=dict(title="Tension<br>(Voyageurs/Train)"),

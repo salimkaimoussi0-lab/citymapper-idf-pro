@@ -22,7 +22,7 @@ fig = px.scatter_mapbox(
 )
 
 fig.update_layout(
-    mapbox_style="carto-positron",
+    mapbox_style="open-street-map",
     margin={"r": 0, "t": 40, "l": 0, "b": 0},
     title="Phase 1.5 : Réseau Interactif RATP / SNCF",
     legend_title_text="Lignes RATP/SNCF",

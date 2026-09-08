@@ -25,7 +25,7 @@ fig = px.scatter_mapbox(
 )
 
 fig.update_layout(
-    mapbox_style="carto-positron",
+    mapbox_style="open-street-map",
     title="PROJET : Saturation Réelle du Réseau IDF",
     margin={"r": 0, "t": 40, "l": 0, "b": 0},
     legend_title_text="Lignes RATP/SNCF",
